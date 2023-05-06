@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garg Electronics Ambah</title>
+    <link rel="stylesheet" href="css/garg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background-color: white;
+      }
+
+      .dropbtn {
+  /* background-color: #04AA6D; */
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>
+    <script type = "text/javascript">
+
+      // alert ("welcome to the gargelectronics ambah");
+      function displayNextImage() {
+          x = (x === images.length - 1) ? 0 : x + 1;
+          document.getElementById("img").src = images[x];
+      }
+  
+      function displayPreviousImage() {
+          x = (x <= 0) ? images.length - 1 : x - 1;
+          document.getElementById("img").src = images[x];
+      }
+  
+      function startTimer() {
+          setInterval(displayNextImage, 5000);
+      }
+  
+      var images = [], x = -1;
+      
+      images[0] = "img/mtek1.jpg";
+      images[1] = "img/mtek2.jpg";
+      images[2] = "img/mtek3.jpg";
+      images[3] = "img/mtek4.jpg";
+      images[4] = "img/chimney/chimneyback1.jpg";
+      images[5] = "img/chimney/chimneyback2.jpg";
+      images[6] = "img/mtek9.jpg";
+      images[7] = "img/mtek10.jpg";
+      images[10] = "img/microwaves/lgback2.jpg";
+      images[11] = "img/microwaves/lgback3.jpg";
+      images[12] = "img/microwaves/lgbackground.jpg";
+      images[13] = "img/microwaves/bajajbackground.jpg";
+      images[14] = "img/microwaves/ifbback1.jpeg";
+
+  </script>
+  
+  </head>
+  <body onload="startTimer()">
+    <header>
+
+
+      <nav class="navbar" style="position:sticky; top:0%; ">
+      <ul class="navigation">
+      <li> <a href="gargelectronicsambah.html"><H2  style="font-family: 'Rubik Microbe', cursive; ">GARG ELECTRONICS</H2> </a></li>  
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."></div>
+      
+          <li style="padding: 0%;"> <div class="signincart"><a href="loginandregister.php" target=""><button id="signin">Hello,sign in  </button> </a>
+          <!-- <a><img src="img/cart.png" alt="" id="cart"></a> <span id="spCartCount" class="CartCount spCartCount " style="color:white">0</span> -->
+        </div> </li>
+
+        </ul>
+      </nav>
+
+      <nav class="navbar1">
+        <ul class="navigation1">
+          <li>TOP PICKS OF THE DAY &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</li>
+          <li>
+            <div class="right">
+              <a href=""
+                ><img src="img/serviceappimg.jpg" alt="" />Service App &nbsp;|&nbsp;</a>
+              <a href="https://www.justdial.com/Morena/Garg-Electronics-Ambah/9999P7532-7532-170523194026-U9F8_BZDET">Order Onlie: +919826293626 &nbsp; | &nbsp;</a>
+              <a href="https://www.google.com/search?q=gargelectronics+ambah&oq=garg&aqs=chrome.0.69i59l2j69i57j69i59j69i60l3.5290j0j1&sourceid=chrome&ie=UTF-8">Contact Us&nbsp; | &nbsp;</a>
+              <a href="https://www.google.com/maps/place/Garg+Electronics+Ambah/@26.7050936,78.2272579,17z/data=!3m1!4b1!4m5!3m4!1s0x39741e3f58b6d281:0x4eaa024722909ade!8m2!3d26.7050936!4d78.2294466">Store Locator&nbsp; | &nbsp;</a>
+              <a href=""><img src="img/locator.jpg" style="width: 41px;" > &nbsp; Location&nbsp;</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+    
+    <hr style="margin:0%; ">
+
+
+     
+
+     
+   
+    <nav class="navbar">
+      <ul class="navigation2 ">
+        
+      
+        <li><div class="dropdown"><a href="">Kitchen Appliances
+          <div class="dropdown-content">
+            <a href="microwaves.html">> Microwaves</a>
+            <a href="">> Induction Cookers</a>
+            <a href="">> Refrigerators</a>
+            <a href="HomeChimneys.html">> Home-Chimneys</a>
+            <a href="">> Water filters (RO_System)</a>
+
+           
+          </div></a> </div></li>
+        <li><div class="dropdown"><a href="">Inverter-Batteries
+          <div class="dropdown-content">
+            <a href="">> Inverters</a>
+            <a href="">> Batteries</a>
+            <a href="">> Complete combo</a>
+          </div></a> </div></li>
+  
+          <li><div class="dropdown"><a href="">Home Appliances 
+          <div class="dropdown-content">
+            <a href="">> Washing Machines</a>
+            <a href="">> Mixer Grinders</a>
+            <a href="">> Air Conditioners</a>
+            <a href="">> Television</a>
+            <a href="">> Celling Fans</a>
+            <a href="">> Water Heaters</a>
+          </div></a> </div></li>
+          <li><div class="dropdown"><a href="">Solar Products
+          <div class="dropdown-content">
+            <a href="">> Solar Panels</a>
+            <a href="">> Off-Grid Solar Combos</a>
+            <a href="">> On-Grid Solar Combos</a>
+          </div></a> </div></li>
+          <li><div class="dropdown"><a href="">Commercial Appliances
+          <div class="dropdown-content">
+            <a href="">> Water Coolers</a>
+            <a href="">> Water Heaters</a>
+            <a href="">> Solar & Offline inverter Combos</a>
+            <a href="">> Air Conditioners</a>
+          </div></a> </div></li>
+      
+      </ul>
+    </nav> 
+    
+  </header>
+    
+
+
+    <div class="swapimage">
+      <div style="width : 50px ; height:50px ; position: absolute ; top: 600px; right: 0px;">
+      
+        </div>
+    
+    <a href="laptopdeals.html"><img id="img" src="img/fronttransition1.jpg"/></a>
+    
+    
+    <div style="width : 50px ; height:50px ; position: absolute ; top: 600px;">
+     
+      </div>
+    
+    
+
+  </div>
+      <div> <img src="img/iphoneing.jpg" alt=""></div>
+
+
+
+    <div id="topfeature"> <div id="topfeaturem">TOP FEATURE BRANDS AT GARG ELECTRONICS </div>
+<div > Most Selling & Most Demanding Brands of 2022  </div>
+<br>
+<div class="topbrands"><a href=""><img src="img/microteklogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/ifblogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/haierlogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/philipslogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/livguardlogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/lg.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/eurekaforbes.jpg" alt=""></a></div>
+<div class="topbrands"><a href=""><img src="img/kentapplianceslogo.jpg" alt=""> </a></div>
+<div class="topbrands"><a href=""><img src="img/whirlpool.jpg" alt=""  style="border-bottom : 2px solid grey ; "> </a></div>
+<div class="topbrands"><a href=""><img src="img/luminiouslogo.jpg" alt=""  style="border-bottom : 2px solid grey ; "> </a></div>
+<div class="topbrands"><a href=""><img src="img/sonylogo.jpg" alt=""  style="border-bottom : 2px solid grey ; "> </a></div>
+<div class="topbrands"><a href=""><img src="img/godrej.jpg" alt=""  style="border-bottom : 2px solid grey ; "> </a></div>
+</div>
+</div>
+    <footer>
+      <hr>
+      <div class="container">
+        <div class="box" id="box1"> <h4> PRODUCTS </h4>
+          <ul>
+            <br>
+            <li><a href="">Air-Conditioner</a></li>
+            <li><a href="">Inverter Batteries </a></li>
+            <li><a href="">Home Appliances</a></li>
+            <li><a href="">Kitchen Appliances</a></li>
+            <li><a href="">Solar Solutions</a></li>
+          </ul>
+          
+        </div>
+       
+        <div class="box" id="box3"><h4>SUPPORT</h4>
+          <ul>
+            <br>
+            <li><a href="">Privacy Policy </a></li>
+            <li><a href="">Terms and condition</a></li>
+            <li><a href="">Cart</a></li>
+            <li><a href="">About Us </a></li>
+            <li><a href="https://www.google.com/search?q=gargelectronics+ambah&oq=garg&aqs=chrome.0.69i59l2j69i57j69i59j69i60l3.5290j0j1&sourceid=chrome&ie=UTF-8">Contact Us</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="https://www.google.com/maps/place/Garg+Electronics+Ambah/@26.7050936,78.2272579,17z/data=!3m1!4b1!4m5!3m4!1s0x39741e3f58b6d281:0x4eaa024722909ade!8m2!3d26.7050936!4d78.2294466">VisitUs </a></li>
+          </ul></div>
+        <div class="box" id="box4"><h4>CONNECT WITH US </h4>
+          <br>
+          <form action="">
+        <li  style=" border:2px solid grey ;background-color: #F0F0F0; "> <input type="email" placeholder="Enter your email" style="border-style:none ; width : 180px ; background-color: #F0F0F0;"> <button  style="border: none ; background-color: none; "><img src="img/arrow.jpg" alt="" style="width:20px ; height :15px;"></button></li>
+ 
+      </form>
+     
+      <div class="logo">
+
+        <a href="https://www.facebook.com/pages/category/Electronics/Gargelectronicsambah-108537384158859/"><img src="img/facebook logo.hpg.jpg" alt=""></a>
+      <a href="https://www.instagram.com/the_gargelectronicsambah/?hl=en"><img src="img/instalogo.jpg" alt=""></a>
+      <a href="https://www.youtube.com/"><img src="img/youtubelogo.jpg" alt="" style=""></a>
+      <a href="https://api.whatsapp.com/send?phone=919826293626&app=facebook&entry_point=page_cta"><img src="img/whatsapplogo.jpg" alt=""></a>
+      </div>
+    </div>
+      </div>
+    </footer>
+  </body>
+</html>
